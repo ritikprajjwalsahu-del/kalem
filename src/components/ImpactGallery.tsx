@@ -24,7 +24,7 @@ const ImpactGallery = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((img, i) => (
             <div key={i} className={`group relative overflow-hidden rounded-2xl ${i === 0 ? "sm:col-span-2 lg:col-span-2" : ""}`}>
-              <img src={img.src} alt={img.alt} className={`w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500 ${i === 0 ? "object-top" : ""}`} />
+              <img src={img.src} alt={img.alt} className={`w-full ${i === 0 ? "h-auto object-contain" : "h-72 object-cover"} group-hover:scale-105 transition-transform duration-500`} />
               <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/50 transition-colors duration-300 flex items-end">
                 <p className="text-primary-foreground font-medium p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                   {img.caption}
