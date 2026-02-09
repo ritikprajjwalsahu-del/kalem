@@ -5,7 +5,7 @@ const StorySection = () => {
   return (
     <section id="story" className="py-24 bg-background">
       <div className="container mx-auto px-4">
-        <p className="text-secondary font-semibold tracking-widest uppercase text-sm text-center mb-3">The Problem</p>
+        <p className="text-secondary font-bold tracking-widest uppercase text-base md:text-lg text-center mb-3">The Problem</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center max-w-3xl mx-auto mb-16">
           A tale of two worlds — separated by access, not ability
         </h2>

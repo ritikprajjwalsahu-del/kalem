@@ -13,7 +13,7 @@ const ConnectSection = () => {
   return (
     <section id="connect" className="py-24 bg-background">
       <div className="container mx-auto px-4">
-        <p className="text-secondary font-semibold tracking-widest uppercase text-sm text-center mb-3">Get Involved</p>
+        <p className="text-secondary font-bold tracking-widest uppercase text-base md:text-lg text-center mb-3">Get Involved</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center max-w-3xl mx-auto mb-6">
           Be part of the change
         </h2>
@@ -34,11 +34,20 @@ const ConnectSection = () => {
             </div>
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Phone className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
+                <p className="text-muted-foreground text-sm">+91 7326869001</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                 <MapPin className="w-5 h-5 text-primary" />
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-1">Location</h4>
-                <p className="text-muted-foreground text-sm">Odisha, India</p>
+                <p className="text-muted-foreground text-sm">Plot 170, District Center, Niladri Vihar, Bhubaneswar, 751016</p>
               </div>
             </div>
             <div className="rounded-2xl bg-muted p-8 border border-border">

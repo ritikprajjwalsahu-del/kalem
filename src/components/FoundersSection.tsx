@@ -1,8 +1,8 @@
 const founders = [
   {
     name: "Prahallad Chandra Sahu",
-    credentials: "IIT Bombay · Ex-Civil Servant",
-    bio: "With a distinguished career spanning elite education and public service, Prahallad brings strategic vision and deep understanding of governance to bridge systemic gaps in rural education.",
+    credentials: "IIT Bombay · IRTS (Indian Railway Traffic Service)",
+    bio: "Hailing from a very small village in Sundargarh district, Prahallad's journey is a testament to the power of exposure and education. Despite being illiterate, his father ensured Prahallad received the best opportunities. He went on to graduate from IIT Bombay and cracked the UPSC Civil Services Examination in both 1992 and 1993, joining the prestigious IRTS. His lived experience drives Kalem's mission to bring the same transformative exposure to rural children.",
   },
   {
     name: "Ritik Prajjwal Sahu",
@@ -15,7 +15,7 @@ const FoundersSection = () => {
   return (
     <section id="founders" className="py-24 bg-muted">
       <div className="container mx-auto px-4">
-        <p className="text-secondary font-semibold tracking-widest uppercase text-sm text-center mb-3">The Founders</p>
+        <p className="text-secondary font-bold tracking-widest uppercase text-base md:text-lg text-center mb-3">The Founders</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center max-w-3xl mx-auto mb-16">
           Built by those who lived the gap
         </h2>

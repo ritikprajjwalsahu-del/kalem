@@ -11,7 +11,7 @@ const VisionSection = () => {
   return (
     <section id="vision" className="py-24 bg-muted">
       <div className="container mx-auto px-4">
-        <p className="text-secondary font-semibold tracking-widest uppercase text-sm text-center mb-3">Our Vision</p>
+        <p className="text-secondary font-bold tracking-widest uppercase text-base md:text-lg text-center mb-3">Our Vision</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center max-w-3xl mx-auto mb-6">
           Bridging the gap between knowledge and access
         </h2>
