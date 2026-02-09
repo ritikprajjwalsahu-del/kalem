@@ -6,8 +6,8 @@ const founders = [
   },
   {
     name: "Ritik Prajjwal Sahu",
-    credentials: "NIT Rourkela '21 · ISB '25",
-    bio: "An engineer and business leader driven by his roots in Odisha, Ritik channels his tech and management expertise to design scalable solutions that bring digital literacy to the underserved.",
+    credentials: "NIT Rourkela '21 · ISB '25 · Founder, WhySchool",
+    bio: "Growing up, Ritik attended top schools and tier-1 institutes, but he observed a stark distortion between formal education and the skills truly needed in the real world. This realization led him to found WhySchool, bridging that gap. He firmly believes that access to quality education is essential for our nation to build value and for all of us to create a beautiful world together.",
   },
 ];
 
