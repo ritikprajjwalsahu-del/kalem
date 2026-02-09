@@ -8,12 +8,12 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-primary/70" />
       </div>
       <div className="relative z-10 container mx-auto px-4 py-32 text-center">
-        <p className="text-secondary font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
+        <p className="text-secondary font-bold tracking-widest uppercase text-base md:text-lg mb-4 animate-fade-in">
           Kalinga Empowerment & Mentorship
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight max-w-4xl mx-auto mb-6">
           The world is racing ahead.{" "}
-          <span className="text-secondary">They haven't even seen a laptop.</span>
+          <span className="text-secondary">Many haven't even seen a laptop.</span>
         </h1>
         <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10">
           While AI, finance, and technology reshape civilization, millions of children in rural Odisha
